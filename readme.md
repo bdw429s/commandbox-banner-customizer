@@ -14,14 +14,14 @@ Once you've done that, there are three module settings you can override to affec
 ### Hide the banner
 
 ```bash
-config set modules.commandbox-banner-customizer.hidebanner=true
+CommandBox> config set modules.commandbox-banner-customizer.hidebanner=true
 ```
 Now close and reopen the CLI and the ASCII art is gone.
 
 ### Custom banner text
 
 ```bash
-config set modules.commandbox-banner-customizer.bannertext="I like spam!"
+CommandBox> config set modules.commandbox-banner-customizer.bannertext="I like spam!"
 ```
 Now close and reopen the CLI and your custom message will appear to greet you
 
@@ -29,7 +29,7 @@ Now close and reopen the CLI and your custom message will appear to greet you
 
 Want to get all kinds of funky and create your own ASCII art of your cat?  Save the exact text you want to output (can be multiple lines) into a file and specify the file path here:
 ```bash
-config set modules.commandbox-banner-customizer.bannerfilepath="C:\\myCustomBanner.txt"
+CommandBox> config set modules.commandbox-banner-customizer.bannerfilepath="C:\\myCustomBanner.txt"
 ```
 For extra credit, try including ANSI escape codes in your text file for a color-coded banner
 
