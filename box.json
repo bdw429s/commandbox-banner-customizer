@@ -1,0 +1,18 @@
+{
+    "name":"CommandBox banner customizer",
+    "version":"1.0.0",
+    "author":"Brad Wood",
+    "homepage":"",
+    "documentation":"",
+    "repository":{
+        "type":"",
+        "URL":""
+    },
+    "bugs":"",
+    "slug":"commandbox-banner-customizer",
+    "shortDescription":"I let you customize your CommandBox startup banner",
+    "description":"I allow you to turn the banner off, provide a specific text, or an entire file to include.",
+    "instructions":"Install this module and set config settings to override the hideBanner, bannerText, and bannerFilePath settings.",
+    "type":"commandbox-modules",
+    "projectURL":""
+}
