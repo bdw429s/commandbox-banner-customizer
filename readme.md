@@ -23,7 +23,7 @@ Now close and reopen the CLI and the ASCII art is gone.
 ```bash
 CommandBox> config set modules.commandbox-banner-customizer.bannertext="I like spam!"
 ```
-Now close and reopen the CLI and your custom message will appear to greet you
+Now close and reopen the CLI and your custom message will appear to greet you.  Note this setting is ignored if `hidebanner` is true.
 
 ### Custom banner file
 
@@ -31,5 +31,5 @@ Want to get all kinds of funky and create your own ASCII art of your cat?  Save 
 ```bash
 CommandBox> config set modules.commandbox-banner-customizer.bannerfilepath="C:\\myCustomBanner.txt"
 ```
-For extra credit, try including ANSI escape codes in your text file for a color-coded banner
+Note this setting is ignored if `hidebanner` is true or if `bannerText` is set.  For extra credit, try including ANSI escape codes in your text file for a color-coded banner
 
