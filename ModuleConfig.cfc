@@ -13,7 +13,7 @@ component {
 	* This method listens for each time the CLI starts up.
 	* @interceptData.hint This is the data passed to our interceptor about the event
 	*/
-	function onCLIStart( rquired struct interceptData ) {
+	function onCLIStart( required struct interceptData ) {
 		// hide the banner entirely
 		if( settings.hideBanner ) {
 			arguments.interceptData.banner = '';
